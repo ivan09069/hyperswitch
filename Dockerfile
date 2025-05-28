@@ -40,7 +40,7 @@ RUN cargo build \
 
 
 
-FROM debian:12.10
+FROM debian:12.11
 
 # Placing config and binary executable in different directories
 ARG CONFIG_DIR=/local/config
